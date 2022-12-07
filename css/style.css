@@ -28,4 +28,28 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
+.container-fluid {
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style-type: none;
+}
 /*# sourceMappingURL=style.css.map */
